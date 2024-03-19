@@ -1,0 +1,60 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #d4a190; /* Light brown */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header {
+    color: #fff;
+  }
+  
+  .introduction {
+    background-color: #b88f77; /* Medium brown */
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .skills {
+    background-color: #d9b48a; /* Tan */
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .skills ul {
+    list-style: none;
+  }
+  
+  .skills li {
+    border: 1px solid #b88f77; /* Medium brown */
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contact {
+    background-color: #8b5a4e; /* Dark brown */
+    padding: 20px;
+    color: #fff;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .header,
+    .introduction,
+    .skills,
+    .contact {
+      padding: 10px;
+    }
+  }
+  
